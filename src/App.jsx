@@ -4,7 +4,10 @@ import Hero from './components/Hero'
 import FeatureCards from './components/FeatureCards'
 import { Heading } from './components/Heading'
 import { SwichingImg } from './components/SwichingImg'
-
+import { Heading2 } from './components/Heading2'
+import { WebsiteDesign } from './components/websiteDesign'
+import { Performance } from './components/Performance'
+import { People } from './components/People'
 
 const App = () => {
   return (
@@ -17,6 +20,10 @@ const App = () => {
       <FeatureCards />
       <Heading />
       <SwichingImg />
+      <Heading2 />
+      <WebsiteDesign />
+      <Performance />
+      <People />
     </div>
   )
 }

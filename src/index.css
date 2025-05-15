@@ -90,3 +90,44 @@ a:hover {
 .switchBtn:hover{
     background-color: rgba(0, 0, 0, 0.123);
 }
+.webImg{
+    margin-bottom: 32px;
+}
+/*
+pointer-events: none;
+width: 1410px;
+height: 619.769px;
+/* position: absolu?te; */
+/* z-index: -1; */
+/* top: 0px;
+opacity: 1; */
+/* 
+transform: translate3d(0px, -173.893px, 0px);
+} */ 
+.mainBGW{
+    z-index: -2;
+    position: relative;
+    top: 0;
+    left: auto;
+    min-height: 150px;
+    height: 620px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-image: url('https://avada.com/wp-content/uploads/2021/07/shape-bg-9.svg');
+}
+.bannerIMG2{
+    width: 100%;
+    height: 584px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://avada.com/wp-content/uploads/2021/08/testimonial.jpg);
+}
+.p-96{
+    padding: 90px;
+    background-color: #ffe979;
+}
+.line-W{
+    margin: 50px 0px 70px;
+}
